@@ -16,7 +16,7 @@ python stitch_images.py <FirstImage> <SecondImage>
 
 The code was modified to make the program able to run.
 
-1. module ‘cv2’ has no attribute ‘SIFT’ ：The reason for the version change
+#### 1. module ‘cv2’ has no attribute ‘SIFT’ ：The reason for the version change
    
 In the new version, OpenCV has integrated algorithms such as SIFT into the xfeatures2d module.
 
@@ -26,15 +26,15 @@ In the new version, OpenCV has integrated algorithms such as SIFT into the xfeat
 sift=cv2.xfeatures2d.SIFT_create()
 ```
 
-2. Support python3.x 
+#### 2. Support python3.x 
 
 ```print('Error: Not enough matches')```
 
-3. 运行
+### run
 
 ```$ python stitch_images.py images/01_suburbA.jpg images/01_suburbB.jpg```
 
-参考：
+### refer to:
 
 https://github.com/pavanpn/Image-Stitching
 
